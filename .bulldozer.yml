@@ -24,8 +24,6 @@ merge:
 # "update" defines how to keep open PRs up to date
 update:
 
-  method: rebase
-
   # The "whitelist" and "blacklist" options here operate the same as described for the `merge` block.
   whitelist:
     labels: ["auto_merge"]
