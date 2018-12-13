@@ -45,3 +45,6 @@ update:
   # The "whitelist" and "blacklist" options here operate the same as described for the `merge` block.
   whitelist:
     labels: ["WIP", "Update Me"]
+
+  # "comment_substrings" matches on substrings in comments or the pull request body
+  comment_substrings: ["==UPDATE_ME=="]
